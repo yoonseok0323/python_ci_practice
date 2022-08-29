@@ -35,5 +35,6 @@ jobs:
           coverageCommand: coverage xml
           coverageLocations: ${{github.workspace}}/coverage.xml:coverage.py
         env:
-          CC_TEST_REPORTER_ID: b963243584f57859c4b4b397b094239e9c6de058c7f1b65e673796b55af13844
-      
+          CC_TEST_REPORTER_ID: 24437f0fe93e1caa579319885785a0172b2343e17af1dfce3a8aaecc2606a51c
+          # codeclimate -> repo setting -testcoverage id
+          
