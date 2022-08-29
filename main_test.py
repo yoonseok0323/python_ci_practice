@@ -11,3 +11,5 @@ class MainTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+#coverage run --source=./ -m unittest discover -p "*_test.py"
+#coverage xml

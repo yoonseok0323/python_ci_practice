@@ -1,0 +1,4 @@
+coverage.xml
+.coverage
+.mypy_cache
+.pytest_cache
